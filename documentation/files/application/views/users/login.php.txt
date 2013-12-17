@@ -3,7 +3,7 @@
 
             <div class="alert">            
 <?php if(isset($returnMessage)){ echo $returnMessage; } else { ?>
-				Enter your user name and password to login.
+				Enter Username and password so login happen.
 <?php } ?>
 			</div>
             <?php echo form_open('login', array('class' => 'form-horizontal', 'name' => 'loginForm')); ?>
